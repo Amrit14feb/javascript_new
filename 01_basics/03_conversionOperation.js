@@ -29,3 +29,20 @@ let someNumber = 3
 let StringNumber = String(someNumber)
 console.log(StringNumber)
 console.log(typeof(StringNumber))
+
+/**operations**/
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2) // if string comes first then all converted to strings
+console.log(1 + 2 + "2")// if number comes first then string converted to number
+
+console.log(+true)
+ 
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2
+
+let gamecounter = 100
+gamecounter++;
+console.log(gamecounter)

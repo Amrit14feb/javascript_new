@@ -34,3 +34,5 @@ const myFunction = function(){
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof heros);
+
+//stack(primitive)...........heap(non primitive)

@@ -20,8 +20,16 @@ console.log(gameName.indexOf('r'))
 const newString = gameName.substring(0,4)
 console.log(newString)
 
-const anotherString = gameName.slice(0,4) //negative value allowwwwwweeeeeed
+const anotherString = gameName.slice(-8,4) //negative value allowwwwwweeeeeed
 console.log(anotherString)
 
-const newstring = gameName.trim()
+const newStringOne = "   amrit   "
+console.log(newStringOne)
+console.log(newStringOne.trim());
 
+const url = "https://amrit.mishra@lnm.com"
+console.log(url.replace('mishra', '-'))
+console.log(url.includes('amrit'))
+console.log(gameName.split('-'));
+
+// explore and read all strings prototypes from mdn

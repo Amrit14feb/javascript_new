@@ -24,4 +24,4 @@ const anotherString = gameName.slice(0,4) //negative value allowwwwwweeeeeed
 console.log(anotherString)
 
 const newstring = gameName.trim()
-console.log(gameName.)
+

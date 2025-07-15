@@ -1,7 +1,7 @@
 const score = 400
-console.log(score);
+console.log(score); 
 
-const balance = new Number(100)
+const balance = new Number(100)//new creates object typed variable.
 console.log(balance);
 
 console.log(balance.toString().length)// now we can use string prototypes too
@@ -27,7 +27,6 @@ console.log(Math.max(2,4,5,1))
 
 console.log(Math.random())// generates random value between 0 and 1
 console.log((Math.random() * 10) + 1 )//this is done to get value greater than 0 and avoiding deafult range.
-
 
 const min = 10;
 const max = 20;

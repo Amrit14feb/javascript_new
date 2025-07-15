@@ -19,7 +19,7 @@ console.log(hundreds.toLocaleString('en-IN'));// to localise the string based on
 
 console.log(Math)
 console.log(Math.abs(-4))//convert -ve value to +ve value i.e absolute
-console.log(Math.round(4.6))
+console.log(Math.round(4.6))             
 console.log(Math.ceil(4.6))
 console.log(Math.floor(5.6))
 console.log(Math.min(2,5,8,4))

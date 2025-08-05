@@ -22,3 +22,29 @@ function loginUserMessage(username){
 }
 
 console.log(loginUserMessage())
+
+
+//when u want multiple entries and no info abt number of entries->then we use the rest operator 
+function calculateArtPrice(...num1){//... is known as rest operator.
+  return num1
+}
+console.log(calculateArtPrice(200,400,600))
+
+//passing objects into functions
+const user={
+  name : "amrit",
+  price : "900",
+}
+
+function handleObjects(anyobject){
+  console.log(`username is ${anyobject.name} and the price is ${anyobject.price}`)
+}
+
+handleObjects(user)
+
+const mynewarray = [200,400,500,600]
+
+function returnSecondValue(getArray){
+  return getArray[1]
+}
+console.log(returnSecondValue([200,900,500,800]))

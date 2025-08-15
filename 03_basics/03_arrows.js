@@ -10,7 +10,7 @@ WelcomeMessage : function(){
     console.log(this)
 }
 }
-// user.WelcomeMessage()
+user.WelcomeMessage()
 
 
 // user.username = 'sam'

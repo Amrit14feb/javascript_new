@@ -42,8 +42,8 @@ console.log(instructor)
 //json api has format as below:
 //apis are either in the array format or object format
 //arrays and objects can be inside each other too
-{
-    "name" : "amrit",
-    "frriendname" : "rishi",
+// {
+//     "name" : "amrit",
+//     "frriendname" : "rishi",
     
-}
+// }
